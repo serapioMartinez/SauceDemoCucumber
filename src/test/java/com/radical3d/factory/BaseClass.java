@@ -49,4 +49,9 @@ public class BaseClass {
         return webDriver.get();
     }
 
+    public static void tearDown(){
+        webDriver.get().quit();
+        webDriver.remove();
+    }
+
 }

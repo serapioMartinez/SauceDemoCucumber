@@ -1,9 +1,7 @@
 package com.radical3d.stepDefinition;
 
 import com.radical3d.factory.BaseClass;
-import com.radical3d.pageObject.BasePage;
 import com.radical3d.pageObject.LoginPage;
-import io.cucumber.core.internal.com.fasterxml.jackson.databind.ser.Serializers;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
