@@ -9,6 +9,9 @@ import org.junit.runner.RunWith;
                  //features = {"./FeatureFiles/AddProductToCart.feature"},
                  features = {"./FeatureFiles/"},
                  glue = "com.radical3d.stepDefinition",
-                 tags = "@Conviven")
+                 tags = "not @Conviven",
+                 plugin = {
+                    "pretty", "html:reports/myreport.html"
+                 })
 public class CucumberRunner {
 }
